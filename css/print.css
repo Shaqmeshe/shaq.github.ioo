@@ -1,0 +1,8 @@
+/* print*/
+@media only print and  
+    (max-width: 1000px) {
+        body{
+            background-color: blue;
+            font-size: 12px;
+        }
+    }

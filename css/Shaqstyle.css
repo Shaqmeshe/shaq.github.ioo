@@ -1,0 +1,171 @@
+
+     /*shaq.html site*/
+
+     .header {
+      background-color: red;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    .title {
+      font-size: grem;
+    }
+
+    
+
+    #linear-gradient {
+      width: 100%;
+      height: 150;
+      background-color: black;
+      background-image: linear-gradient( 45deg, black, white);
+    }
+
+    #linnear-gradient p{
+      text-align: center; vertical-align: middle;
+      line-height: 150px;
+      color: wheat;
+    }
+
+    #palette{
+      width: 40px;
+      height: 40px;
+      padding: 0;
+      border: none;
+      background: url()
+    }
+
+    #myimage{
+      width: 320px;
+      height: 240px;
+    }
+
+    #myimage:hover { 
+      width: 640px;
+      height: 480px;
+      transition: width 2s, height 2s;
+      transition-timing-function: linear;
+    }
+
+    p.first {
+      
+      font-size: 14px;
+      color: black;
+    }
+
+    p.second {
+      
+      font-size: 14px;
+      color: black;
+    }
+    p.third {
+      
+      font-size: 14px;
+      color: black;
+    
+    }
+    body {
+      background-color: white;
+    }
+
+    img.image{width: auto;
+      min-width: 320px;
+      max-width: 400px;
+      float: left; 
+      padding: 10px;;
+      margin: 10px;
+      border: 1px;
+      border-style: solid;
+     
+    }
+  h1{
+    color: white;
+    width: 200px;
+    text-align: center;
+  }
+  
+  /*resume.html*/
+h1.name{ 
+  color: white; 
+  
+  
+}
+img.name{
+  width: 250px;
+ 
+  padding-left: -40px;   
+}
+
+/*artice*/
+article::first-line{
+  font-style:italic;
+}
+/*link*/
+a:link {
+color: green;
+}
+
+
+a:visited {
+color: white;
+}
+
+
+a:hover {
+color: red;
+}
+
+
+a:active {
+color: yellow;
+} 
+
+article p{
+font-weight: bold; 
+}
+/*big screen*/
+@media only screen and  
+    (max-width: 1000px) {
+        body{
+            background-color: white;
+            font-size: 12px;
+        }
+    }
+
+    /*navigtion*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/*.active {
+  background-color: #04AA6D;
+}*/
+
+.row{
+  padding-top:20px;
+}    
