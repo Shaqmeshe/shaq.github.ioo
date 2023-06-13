@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .true{
+background-color: green;
+background-position: 0px -25px;
+display: inline-block;
+height: 25px;
+float: right;
+width: 25px;
+}
+
+.false{
+background-color: red;
+background-position: 0px -25px;
+display: inline-block;
+height: 25px;
+float: right;
+width: 25px;
+}
+ 
+    </style>
+   <div class="message">stock<span id="stock" class="inStock"></span></div>
+   <div class="message">shipping<span id="ship" class="shipping"></span></div>
+    <script src="hoursofday.js"></script>
 </head>
 <body>
-    <script src="hoursofday.js"></script>
-    <div id="stock" class="true"></div>
-    <div id="shipping" class="false"></div>
+    
+    
 </body>
 </html>
