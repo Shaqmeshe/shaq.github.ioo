@@ -18,11 +18,25 @@ document.write('<h3>' + greeting + '</h3>');
 var price =5;
 var quantity=14;
 var total = price * quantity;
-var el = document.getElementById("cost");
+var el = document.getElementById("cost").innerHeight=total
+document.write(total);
 el.textContent = '$' + today;
 
 
 // Get the element with an id of cost.
 
 
-// Note: textContent does not work in IE8 or earlier - see explanation on website
+
+username = 'Meshech';
+message = 'i can see you hidding';
+
+
+var elName = document.getElementById('name') .innerHTML;
+document.write(username);
+elName.textContent = username;
+
+
+var elNote = document.getElementById('note');
+
+elNote.textContent = message;
+
