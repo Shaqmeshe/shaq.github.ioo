@@ -1,42 +1,15 @@
-var today = new Date();
-var hourNow = today.getHours();
-var greeting;
+// create variables and assign their values
+var inStock;
+var shipping;
+inStock = true;
+shipping = false;
 
-if (hourNow > 18) {
-    greeting = 'Good evening!';
-} else if (hourNow > 12) {
-    greeting = 'Good afternoon!';
-} else if (hourNow > 0) {
-    greeting = 'Good morning!';
-} else {
-    greeting = 'Welcome!';
-}
+// get the element that has an id of stock
+var elStock = document.getElementById('stock');
+// Set class name with value of inStock variable
+elStock.className = inStock;
 
-document.write('<h3>' + greeting + '</h3>');
-
-// Create three variables to store the information needed.
-var price =5;
-var quantity=14;
-var total = price * quantity;
-var el = document.getElementById("cost").innerHeight=total
-document.write(total);
-el.textContent = '$' + today;
-
-
-// Get the element with an id of cost.
-
-
-
-username = 'Meshech';
-message = 'i can see you hidding';
-
-
-var elName = document.getElementById('name') .innerHTML;
-document.write(username);
-elName.textContent = username;
-
-
-var elNote = document.getElementById('note');
-
-elNote.textContent = message;
-
+// get the element that has an id of shipping
+var elShip = document.getElementById('shipping');
+// Set class name with value of shipping variable
+elShip.className = shipping;
